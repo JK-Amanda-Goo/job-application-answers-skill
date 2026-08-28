@@ -1,0 +1,26 @@
+# Personal data must never be committed.
+#
+# The skill keeps your resume, career context, and past answers in a workspace
+# outside this repo (~/job-application-answers/ by default). These rules are a
+# second line of defense in case anything lands here by accident.
+
+profile/
+answers/
+workspace/
+
+# Resume / personal documents in any form
+*resume*
+*résumé*
+*cv*
+*.pdf
+*.docx
+*.doc
+
+# Common accidents
+context.md
+my-*.md
+draft*.md
+*-answer.md
+*.local.md
+
+.DS_Store
