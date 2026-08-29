@@ -2,6 +2,11 @@
 
 All notable changes to this project are documented here. Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [0.1.2] - 2026-08-28
+
+### Added
+- Two new items on `references/ai-slop-checklist.md`'s review pass: (11) label a company's first mention with identifying keywords (funding stage, sector, scale) rather than assuming the reader knows it, and (12) use bullet points instead of forced prose when a question's answer is genuinely a parallel list (tooling, inputs/outputs) rather than a narrative.
+
 ## [0.1.1] - 2026-08-27
 
 ### Changed

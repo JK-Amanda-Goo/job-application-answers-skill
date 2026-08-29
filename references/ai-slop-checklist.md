@@ -97,6 +97,18 @@ Models pad by restating the question or defining common terms:
 
 The reader wrote the question and works in the field. Cut straight to the answer.
 
+## 11. Unlabeled company names
+
+A company name alone assumes the reader already knows what it is. Most won't — a recruiter reading about a past employer or a portfolio company has no reason to know its funding stage, sector, or scale unless told.
+
+Pair a first mention with a short parenthetical of identifying keywords: stage/funder, what it does, and a scale marker if one exists. `Sendbird (YC W16, chat/AI-agent API platform, $1B valuation)` carries far more than `Sendbird` alone, and it does real work for the reader — it's evidence of caliber, not decoration. Keep it to what's actually true and known; don't pad it into a fourth item just to fill the parenthetical.
+
+Once a company's been tagged in an answer, later mentions in the same answer don't need to repeat the full tag.
+
+## 12. Forcing everything into prose
+
+Not a slop tell, but its own failure: cramming a genuinely itemized answer into paragraph form to seem more "written." When a question explicitly asks for parallel components — inputs vs. outputs, tooling vs. process, a list of responsibilities — bullets are more honest and easier to scan than a run-on sentence pretending they're not a list. Use prose for narrative (what happened, why, what changed); use bullets when the underlying content actually is a list.
+
 ---
 
 ## Sanity check before you finish
