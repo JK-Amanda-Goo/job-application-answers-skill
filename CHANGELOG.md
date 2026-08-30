@@ -2,6 +2,11 @@
 
 All notable changes to this project are documented here. Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [0.1.3] - 2026-08-30
+
+### Added
+- Step 4 working principle: tag every past employer with its identifying parenthetical (stage/funder, what it does, scale marker) on first mention, drafted in from the start rather than left for the Step 5 slop pass (checklist item 11) to catch. Prompted by a real run where the first draft named "Sendbird" bare and the tag had to be added on review.
+
 ## [0.1.2] - 2026-08-28
 
 ### Added

@@ -95,6 +95,7 @@ Working principles:
 - **Lead with the specific, not the frame.** "I spent six months rebuilding onboarding for users who'd churned" beats "I'm passionate about user-centric product development."
 - **Connect to this JD's real requirements**, not its boilerplate. Most JDs have two or three things that actually matter and a lot of standard language; answer the former.
 - **One example, developed** beats three, listed. Depth is what's scarce.
+- **Tag every past employer on first mention.** When you name a company from `profile/`, carry its short identifying parenthetical — stage/funder, what it does, a scale marker if one is true and known (`Sendbird (YC W16, chat/AI-agent API platform, $1B valuation)`). The reader has no reason to know a past employer or portfolio company, and the tag is evidence of caliber, not decoration. Draft it in from the start rather than leaving it for the Step 5 pass to catch. Later mentions in the same answer don't repeat the full tag.
 - **Keep their words** where they wrote something well. If they said "it was a mess for about a month," that's often better than anything you'd substitute.
 - **Respect the length limit.** If there isn't one, 150–250 words.
 
