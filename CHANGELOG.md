@@ -2,6 +2,15 @@
 
 All notable changes to this project are documented here. Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [0.1.4] - 2026-09-03
+
+### Added
+- Step 8: once an application's answers are done, the skill offers (in English) to draft a short hiring-manager outreach message to send on LinkedIn alongside the application — a tight intro plus role-fit aimed at getting the reader to want a conversation, not a cover-letter restatement.
+- `references/hiring-manager-outreach.md` — the four-beat shape (hook / role-fit / one concrete detail / low-friction close), length targets for a connection note (300 chars) vs. a direct message (75–110 words), the anti-patterns that kill these messages, and generic worked examples. The message is a compression of the answers just written, run through the same slop pass, and archived as `...-outreach-message.md` for reuse.
+
+### Changed
+- Skill description notes the outreach-message follow-on, and narrows the "not for" exclusion to *standalone* networking/cold-outreach unconnected to an application in progress.
+
 ## [0.1.3] - 2026-08-30
 
 ### Added

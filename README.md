@@ -14,6 +14,7 @@ The point of this skill is that it **doesn't just write the answer for you**. An
 6. **AI-slop pass** — checked against a concrete list of machine-writing tells: manufactured enthusiasm, buzzwords, three-item lists, "not just X but Y," uniform sentence rhythm, abstract self-praise.
 7. **Recruiter + hiring-manager review** — read twice more through two different lenses, since they screen for different things. You're told what the review caught and what changed.
 8. **You confirm**, then it's archived for reuse.
+9. **Outreach message** *(optional)* — once the answers are done, it offers to draft a short LinkedIn message to the hiring manager: a tight intro and why you fit the role, built to get them to open your resume and want a conversation. Same slop pass, also archived.
 
 ## Your data stays local
 
@@ -58,6 +59,7 @@ If you have a personal writing-voice skill (something like `yourname-voice`), th
 - `references/question-type-playbook.md` — question types and the structure each rewards
 - `references/ai-slop-checklist.md` — concrete tells of machine-written text
 - `references/recruiter-hm-review-rubric.md` — the two review lenses
+- `references/hiring-manager-outreach.md` — shape, length, and anti-patterns for the outreach message
 - `assets/profile-template.md` — scaffold for your career context file
 
 ## Releasing

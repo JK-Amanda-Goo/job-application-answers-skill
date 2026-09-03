@@ -1,6 +1,6 @@
 ---
 name: job-application-answers
-description: Drafts answers to written job-application questions by first drawing out the user's own thinking, then shaping it into a concise, specific, human-sounding answer — with an AI-slop pass and a recruiter/hiring-manager review before it reaches the user. Also reuses their past answers when a similar question comes up again. Use this skill whenever someone is filling out a job application and needs to write a free-text answer: "why do you want to work here," "tell us about a time you...," "what interests you about this role," a supplemental essay, a cover-letter-style prompt, or any open text field on an application form. Trigger it when the user pastes a job description alongside a question, says they're applying somewhere and needs help writing something, mentions a question they keep getting asked on application forms, or asks for help with application or cover-letter wording — even if they never say the words "application question." Not for resume/CV writing or review, mock-interview practice, LinkedIn or social posts, networking or outreach emails, offer negotiation, recommendation letters, or deciding which companies to apply to — those are adjacent but different tasks.
+description: Drafts answers to written job-application questions by first drawing out the user's own thinking, then shaping it into a concise, specific, human-sounding answer — with an AI-slop pass and a recruiter/hiring-manager review before it reaches the user. Once the answers are done it can also draft a short hiring-manager outreach message to send with the application. Also reuses their past answers when a similar question comes up again. Use this skill whenever someone is filling out a job application and needs to write a free-text answer: "why do you want to work here," "tell us about a time you...," "what interests you about this role," a supplemental essay, a cover-letter-style prompt, or any open text field on an application form. Trigger it when the user pastes a job description alongside a question, says they're applying somewhere and needs help writing something, mentions a question they keep getting asked on application forms, or asks for help with application or cover-letter wording — even if they never say the words "application question." Not for resume/CV writing or review, mock-interview practice, LinkedIn or social feed posts, standalone networking or cold-outreach messages unconnected to an application you're writing, offer negotiation, recommendation letters, or deciding which companies to apply to — those are adjacent but different tasks.
 ---
 
 # Job Application Answers
@@ -138,7 +138,27 @@ word_count: 187
 
 The frontmatter is what makes Step 2 work later, so fill it in accurately — especially `question`, stored as the full question text rather than a paraphrase.
 
-Then offer to take the next question from the same application.
+Then continue to Step 8.
+
+## Step 8 — Offer a hiring-manager outreach message
+
+Once this application's answers are done, offer one more thing: a short message the user can send the hiring manager or recruiter on LinkedIn, alongside the application. A well-aimed note gets a real person to open the resume — which is most of what an application is trying to earn.
+
+Offer it **once per application**, after the answers are finished — not after every question. Ask in English, since the user sends these in English regardless of the language you're working in:
+
+> Your answers are set. Want me to draft a short LinkedIn message to the hiring manager to go with this — just a tight intro and why you fit the role, aimed at getting them to want a conversation?
+
+If they decline, offer the next question or the next application and stop.
+
+If they want it, draft per `references/hiring-manager-outreach.md`. The essentials:
+
+- **It's a compression of the answers you just wrote**, not fresh analysis. Pull the single strongest role-relevant proof point and cut everything else.
+- **Lead with a specific thing they did**, never with the ask. The first sentence decides whether the rest gets read.
+- **Name the role and connect the proof to what the JD actually needs** in one line — that's what signals they read the real job.
+- **Keep it to length**: a LinkedIn connection note is 300 characters (~45–55 words); a direct message stays 75–110 words. Default to the shorter one unless the user says they can message the person directly.
+- **Run the `ai-slop-checklist.md` pass on it too.** A short message has nowhere to hide manufactured enthusiasm or a formulaic opening.
+
+Show the draft with a character count (connection note) or word count (DM) and one line on which proof point you led with and why. On confirmation, archive it to `~/job-application-answers/answers/` as `YYYY-MM-DD-company-position-outreach-message.md` with `question: Hiring-manager outreach message` in the frontmatter, then offer the next question or application.
 
 ## Voice
 
@@ -146,9 +166,12 @@ If the user has a personal writing-voice skill (something like `<name>-voice`), 
 
 Otherwise, take voice cues from what they wrote in Step 3 and from `profile/context.md`. Their fragments are a voice sample; match their register rather than defaulting to formal application-ese.
 
+This applies to the Step 8 outreach message too.
+
 ## Reference files
 
 - `references/question-type-playbook.md` — question types and the structure that works for each (Step 4)
 - `references/ai-slop-checklist.md` — concrete tells of machine-written text (Step 5)
 - `references/recruiter-hm-review-rubric.md` — the two review lenses (Step 6)
+- `references/hiring-manager-outreach.md` — shape, length, and anti-patterns for the outreach message (Step 8)
 - `assets/profile-template.md` — scaffold for `profile/context.md` (Step 0)
