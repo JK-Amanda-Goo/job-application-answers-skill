@@ -30,7 +30,7 @@ The repo's `.gitignore` blocks personal files as a second line of defense. If yo
 ## Install
 
 ```bash
-git clone https://github.com/JK-Amanda-Goo/job-application-answers.git ~/.claude/skills/job-application-answers
+git clone https://github.com/JK-Amanda-Goo/job-application-answers-skill.git ~/.claude/skills/job-application-answers
 ```
 
 Then just say what you need in a Claude Code session:
